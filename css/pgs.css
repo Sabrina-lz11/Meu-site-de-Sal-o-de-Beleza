@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.container{
+    display: flex;
+   
+} 
+.img1{
+    width: 50%;
+    height: 100vh;
+    min-width: 350px;
+}
+
+.container_form{
+    width: 50%;
+    padding: 50px 100px;
+
+}
+.logo{
+    border: 1px solid pink;
+    border-radius: 150px;
+    box-shadow: 0 0 20px violet;
+    height: 190px;
+    margin-bottom: 50px;
+    margin-left: 140px;
+}
+form{
+    padding-left: 100px;
+}
+form p{
+ margin-bottom: 20px;
+}
+form label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+form input{
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+form input:focus{
+    outline: none;
+    border: 2px solid pink;
+}
+a.link{
+    color: blue;
+}
+button{
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    color: pink;
+    outline: none;
+    border: 2px solid palevioletred;
+}
+button:hover{
+    background-color: pink;
+    transition: 2s;
+}
+.cadastre{
+    padding-left: 100px;
+}
