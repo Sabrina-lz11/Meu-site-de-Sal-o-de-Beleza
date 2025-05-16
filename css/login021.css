@@ -10,6 +10,8 @@ img{
     margin-left: 600px;
    margin-top: 50px; 
    /* margin-top: posiciona a imagem um pouco abaixo */
+
+   color: aqua;
 }
 .sr-only{
     margin-right: 60px;
